@@ -22,7 +22,7 @@ jobs:
 
       # ADJUST THIS: install all dependencies (including pdoc)
       - run: pip install -e . pdoc
-      - run: pdoc -o docs/ behave-odoo/behave-odoo.py
+      - run: pdoc -o docs/ behave_odoo
 
       - uses: actions/upload-pages-artifact@v1
         with:
