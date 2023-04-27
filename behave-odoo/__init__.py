@@ -14,7 +14,7 @@ def step_impl(context):
 
 """
 
-from .behave_odoo import (
+from .behave-odoo import (
     login,
     click_menu_item,
     navigate_menu,
