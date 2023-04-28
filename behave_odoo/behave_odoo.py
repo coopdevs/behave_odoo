@@ -1,5 +1,5 @@
 """
-`behave_odoo` is a Python package that provides a collection of helper functions designed to simplify the process of writing behave tests for Odoo applications. 
+`behave_odoo` is a Python package that provides a collection of helper functions designed to simplify the process of writing behave tests for Odoo 14. 
 
 The package includes functions for navigating the Odoo interface, interacting with form fields, and performing common actions within the Odoo environment.
 

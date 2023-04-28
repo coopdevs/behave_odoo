@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="behave_odoo",
-    version="0.1.0",
+    version="14.0.1.0.0",
     packages=find_packages(),
     install_requires=[
         "selenium",
@@ -16,7 +16,7 @@ setup(
     url="https://github.com/coopdevs/behave_odoo",
     license="AGPLv3",
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "License :: OSI Approved :: GNU Affero General Public License v3",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
@@ -24,5 +24,15 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Framework :: Odoo",
+        "Framework :: Odoo :: 14.0",        
+        "Topic :: Software Development",
+        "Topic :: Software Development :: Testing",
+        "Topic :: Software Development :: Testing :: Acceptance",
+        "Topic :: Software Development :: Testing :: BDD",        
+        "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: System Administrators",
+        "Operating System :: OS Independent",
     ],
 )
